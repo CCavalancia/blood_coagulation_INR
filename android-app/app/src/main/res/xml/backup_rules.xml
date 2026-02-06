@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Include user data -->
+    <include domain="database" path="." />
+    <include domain="sharedpref" path="." />
+
+    <!-- Exclude cache -->
+    <exclude domain="cache" path="." />
+
+    <!-- Exclude temporary video files -->
+    <exclude domain="file" path="temp_videos/" />
+</full-backup-content>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">INR Measurement</string>
+
+    <!-- Main Screen -->
+    <string name="welcome_title">INR Measurement System</string>
+    <string name="welcome_subtitle">Phase 2A - Blood Coagulation Testing</string>
+    <string name="btn_start_measurement">Start Measurement</string>
+    <string name="btn_view_history">View History</string>
+    <string name="btn_settings">Settings</string>
+
+    <!-- Measurement Screen -->
+    <string name="measurement_title">Recording Measurement</string>
+    <string name="measurement_instructions">Position the sample in the holder and tap record</string>
+    <string name="btn_record">Record</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_analyze">Analyze</string>
+    <string name="recording_time">Recording: %s</string>
+
+    <!-- Analysis Screen -->
+    <string name="analysis_title">Analyzing Sample</string>
+    <string name="analysis_extracting_frames">Extracting video frames…</string>
+    <string name="analysis_pipette_motion">Computing pipette motion curve…</string>
+    <string name="analysis_particle_motion">Computing particle motion curve…</string>
+    <string name="analysis_calculating">Calculating PT and INR values…</string>
+    <string name="analysis_progress">Progress: %d%%</string>
+
+    <!-- Results Screen -->
+    <string name="results_title">Measurement Results</string>
+    <string name="results_pt_label">Prothrombin Time (PT)</string>
+    <string name="results_inr_label">International Normalized Ratio (INR)</string>
+    <string name="results_pt_value">%s seconds</string>
+    <string name="results_inr_value">%s</string>
+    <string name="results_date">Measured on: %s</string>
+    <string name="btn_save_results">Save Results</string>
+    <string name="btn_share_results">Share Results</string>
+    <string name="btn_new_measurement">New Measurement</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Measurement History</string>
+    <string name="history_empty">No measurements yet</string>
+    <string name="history_item_date">%s</string>
+    <string name="history_item_pt">PT: %s sec</string>
+    <string name="history_item_inr">INR: %s</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_export">Export</string>
+
+    <!-- Permissions -->
+    <string name="permission_camera_title">Camera Permission Required</string>
+    <string name="permission_camera_message">This app needs camera access to record blood coagulation measurements</string>
+    <string name="permission_storage_title">Storage Permission Required</string>
+    <string name="permission_storage_message">This app needs storage access to save measurement videos and results</string>
+    <string name="btn_grant_permission">Grant Permission</string>
+    <string name="btn_deny">Deny</string>
+
+    <!-- Errors -->
+    <string name="error_camera_init">Failed to initialize camera</string>
+    <string name="error_recording">Error during recording</string>
+    <string name="error_analysis">Error during analysis</string>
+    <string name="error_save">Failed to save results</string>
+    <string name="error_generic">An error occurred. Please try again.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_video_quality">Video Quality</string>
+    <string name="settings_framerate">Frame Rate</string>
+    <string name="settings_calibration">Calibration</string>
+    <string name="settings_about">About</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_confirm_delete">Delete Measurement?</string>
+    <string name="dialog_confirm_delete_message">This action cannot be undone.</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_camera_preview">Camera preview</string>
+    <string name="cd_back_button">Back</string>
+    <string name="cd_menu_button">Menu</string>
+</resources>
